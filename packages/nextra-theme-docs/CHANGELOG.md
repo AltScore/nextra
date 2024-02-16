@@ -1,5 +1,12 @@
 # nextra-theme-docs
 
+## 3.0.0-alpha.18
+
+### Patch Changes
+
+- Updated dependencies [f71e660e]
+  - nextra@3.0.0-alpha.18
+
 ## 3.0.0-alpha.17
 
 ### Minor Changes

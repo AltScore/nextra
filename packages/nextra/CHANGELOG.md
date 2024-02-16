@@ -1,5 +1,11 @@
 # nextra
 
+## 3.0.0-alpha.18
+
+### Minor Changes
+
+- f71e660e: change to shiki again
+
 ## 3.0.0-alpha.17
 
 ### Minor Changes
