@@ -349,6 +349,12 @@ export function Sidebar({
   const sidebarRef = useRef<HTMLDivElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
   const mounted = useMounted()
+
+  useEffect(() => {
+    const permissions = window.localStorage.getItem('frontegg-permissions')
+    console.log({ permissions })
+  }, [mounted])
+
   useEffect(() => {
     if (menu) {
       document.body.classList.add('nx-overflow-hidden', 'md:nx-overflow-auto')
